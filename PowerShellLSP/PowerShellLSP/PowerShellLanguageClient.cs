@@ -10,12 +10,14 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net.Sockets;
+using System.Reflection;
+using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace MockLanguageExtension
 {
-	[ContentType("PowerShell2")]
+	[ContentType("PowerShell1")]
 	[Export(typeof(ILanguageClient))]
 	public class PowerShellLanguageClient : ILanguageClient
 	{
@@ -83,14 +85,14 @@ namespace MockLanguageExtension
 	public class PowerShellContentDefinition
 	{
 		[Export]
-		[Name("PowerShell2")]
+		[Name("PowerShell1")]
 		[BaseDefinition(CodeRemoteContentDefinition.CodeRemoteContentTypeName)]
-		internal static ContentTypeDefinition PowerShellContentTypeDefinition;
+		internal static ContentTypeDefinition BarContentTypeDefinition;
 
 
 		[Export]
 		[FileExtension(".ps1")]
-		[ContentType("PowerShell2")]
-		internal static FileExtensionToContentTypeDefinition PowerShellFileExtensionDefinition;
+		[ContentType("PowerShell1")]
+		internal static FileExtensionToContentTypeDefinition BarFileExtensionDefinition;
 	}
 }

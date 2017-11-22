@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27110.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerShellLSP", "PowerShellLSP\PowerShellLSP.csproj", "{E434726F-CB9D-4C1E-AE44-177F57C9EA53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerShellLSP", "PowerShellLSP\PowerShellLSP.csproj", "{766E503D-CF4F-4657-900C-659662EECE5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E434726F-CB9D-4C1E-AE44-177F57C9EA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E434726F-CB9D-4C1E-AE44-177F57C9EA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E434726F-CB9D-4C1E-AE44-177F57C9EA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E434726F-CB9D-4C1E-AE44-177F57C9EA53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{766E503D-CF4F-4657-900C-659662EECE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766E503D-CF4F-4657-900C-659662EECE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766E503D-CF4F-4657-900C-659662EECE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766E503D-CF4F-4657-900C-659662EECE5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8662D4CB-E9CB-40A1-955C-D5F8E223D7AD}
+		SolutionGuid = {7A87C754-B3D9-4766-87A4-A409CE0F3B98}
 	EndGlobalSection
 EndGlobal
